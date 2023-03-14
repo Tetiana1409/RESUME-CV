@@ -4,12 +4,22 @@ body {
   box-sizing: border-box;
 }
 
-/* main styles */
+/* ------------------------MAIN--------------------------- */
 .main {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px; /*задати ширину блоку*/
+  width: 1200px;
   margin: 0 auto auto;
+
+  @media screen and (min-width: 320px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 120px) {
+    max-width: 1200px;
+  }
 }
 
 .main-wrap {
@@ -53,7 +63,7 @@ body {
   margin-bottom: 20px;
 }
 
-/*about styles*/
+/*---------------------------ABOUT---------------------*/
 
 .about {
   margin-top: 230px;
@@ -98,7 +108,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* work & education styles */
+/*-------------------WORK---------------------*/
 
 .work_position,
 .faculty {
@@ -216,6 +226,12 @@ body {
   width: 250px;
   height: 1px;
   background-color: #f5ed09;
+}
+
+.icon-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .skills-icon {

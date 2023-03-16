@@ -42,7 +42,8 @@ body {
   height: 300px;
 }
 
-.sidebar_title {
+.sidebar_title,
+.letter-title {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -339,4 +340,35 @@ body {
   margin-top: 48px;
 }
 
-/* ---------------------------------------------- */
+/* --------------------- Cover Letter ------------------------- */
+
+.cover-letter {
+  width: 1152px;
+  border: 1px solid #dccd21;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.letter-title {
+  color: black;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.letter-text {
+  margin: 10px 50px;
+}
+
+.cover-letter-list {
+  margin: 0px 35px;
+}
+
+.cover-letter-item {
+  margin-top: 5px;
+}
+
+.cover-letter-text {
+  color: #000000;
+}

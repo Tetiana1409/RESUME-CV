@@ -20,8 +20,8 @@ body {
   background: #373939;
   padding-top: 40px;
   width: 370px;
-  margin-top: 50px; /*Додаткові відступи зверху*/
-  margin-bottom: 25px; /*Додаткові відступи знизу*/
+  margin-top: 20px; /*Додаткові відступи зверху*/
+  margin-bottom: 15px; /*Додаткові відступи знизу*/
 }
 
 .sidebar-container {
@@ -185,8 +185,8 @@ body {
   background: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 65px 80px;
-  margin-top: 50px; /*Додаткові відступи зверху*/
-  margin-bottom: 25px; /*Додаткові відступи знизу*/
+  margin-top: 20px; /*Додаткові відступи зверху*/
+  margin-bottom: 15px; /*Додаткові відступи знизу*/
 }
 
 .user-wrap {
